@@ -74,28 +74,6 @@ body {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-      -webkit-animation: closeLeft 0.45s ease-in-out forwards;
-  -moz-animation: closeLeft 0.45s ease-in-out forwards;
-  -ms-animation: closeLeft 0.45s ease-in-out forwards;
-  animation: closeLeft 0.45s ease-in-out forwards;
-}
-#card #heart2 {
-  -webkit-animation: closeRight 0.45s ease-in-out forwards;
-  -moz-animation: closeRight 0.45s ease-in-out forwards;
-  -ms-animation: closeRight 0.45s ease-in-out forwards;
-  animation: closeRight 0.45s ease-in-out forwards;
-
-}
-#card:hover #heart1 {
-  -webkit-animation: openLeft 2s ease-in-out forwards;
-  -moz-animation: openLeft 2s ease-in-out forwards;
-  -ms-animation: openLeft 2 ease-in-out forwards;
-  animation: openLeft 2s ease-in-out forwards;
-}
-#card:hover #heart2 {
-  -webkit-animation: openRight 2s ease-in-out forwards;
-  -moz-animation: openRight 2s ease-in-out forwards;
-  -ms-animation: openRight 2 ease-in-out forwards;
 }
 @-webkit-keyframes closeLeft {
   from {
